@@ -1,29 +1,63 @@
 
+<!------Top Start--------->
 <div align="center">
-
 <!--lint ignore no-dead-urls-->
-# Awesome Python Coding Snippets 
 
-![Awesome](https://awesome.re/badge.svg) ![Lint Awesome List](https://img.shields.io/badge/Python-Coding-Snippets)
+# Awesome Python Coding Snippets :rocket:
 
+ ![Awesome](https://awesome.re/badge.svg) ![Python Coding](https://img.shields.io/badge/Python-Coding-Snippets) ![Snippets](https://img.shields.io/badge/Snippets-red)
+<hr/> 
 
- A List Of Python Coding Snippets  <a href="//python.org">Python</a>. 
+ A List Of Python Coding Snippets. 
 
-<img align='center' src="https://media.giphy.com/media/GoZvZWZA7Kyfm/giphy.gif" >
+<img align='center' src="https://media.giphy.com/media/H1SOl377Sc2eYokLTx/giphy.gif" width='70' >
 </div>
-<hr/>
+<!------Top End--------->
 
-## Contents
 
-- [String](#String)
-- [List](#List)
-- [Tuple](#Tuple)
-- [Set](#Set)
-- [Dictionary](#Dictionary)
 
+
+<!-- tabs:start -->
+
+#### ** Strings **
+<img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' >
+
+1. [Reverse String](#Reverse-String)
+
+#### ** List **
+<img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300'>
+
+1. [Transpose A List](#Transpose-A-List)
+2. [Most Frequent Elements](#Most-Frequent-Elements)
+3. [Grouping Adjacent Elements](#Grouping-Adjacent-Elements)
+
+
+#### ** Tuple **
+<img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif"  width='300'>
+
+1. [Tuple Unpacking](#Tuple-Unpacking)
+
+
+#### ** Set **
+<img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300'>
+
+1. [Unique Elements](#Unique-Elements)
+
+#### ** Dictionary **
+<img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' >
+
+1. [Merge Dictionaries](#Merge-Dictionaries)
+2. [List To Dict](#List-To-Dict)
+3. [Inverse Dictionary](#Inverse-Dictionary)
+
+
+<!-- tabs:end -->
+
+
+
+<!-- string:start -------------------------------------------------------------------------------------------------->
 
 ## Strings
-<hr/>
 
 ### Reverse String
 ```python
@@ -32,12 +66,15 @@ print(text[::-1])
 
 #Output : esrever
 ```
+<!-- string:end -->
 
+
+
+<!-- list:start --------------------------------------------------------------------------------------------------------------->
 
 ## List
-<hr/>
 
-### Transpose a List
+### Transpose A List
 ```python
 lst = [['a', 'b'], ['c', 'd'], ['e', 'f']]
 res = list(zip(*lst))
@@ -46,7 +83,7 @@ print(res)
 #Output : [('a', 'c', 'e'), ('b', 'd', 'f')]
 ```
 
-### Most common occurrence of element
+### Most Frequent Elements
 ```python
 from collections import Counter
 lst = [1, 2, 3, 1, 2, 4, 2]
@@ -62,7 +99,7 @@ print(most_1)
 # Output: [(2, 3)]
 ```
 
-### Grouping adjacent element
+### Grouping Adjacent Elements
 ```python
 lst = [1, 2, 3, 4, 5, 6]
 groups = lambda lst, n : zip(*([iter(lst)]*n))
@@ -76,8 +113,14 @@ print(g2)
 # Output : [(1, 2), (3, 4), (5, 6)]
 ```
 
+<!-- list:end -------------------------------------------------------------------------------------------------->
+
+
+
+<!-- tuple:start -------------------------------------------------------------------------------------------------->
+
 ## Tuple
-<hr/>
+
 
 ### Tuple Unpacking
 ```python
@@ -86,22 +129,24 @@ print("a:{}\nb:{}".format(a,b))
 
 # Output  a:10 b:20
 ```
+<!-- tuple:end -------------------------------------------------------------------------------------------------->
 
+
+<!-- set:start -------------------------------------------------------------------------------------------------->
 ## Set
-<hr/>
-
-### Don't Store Duplicate Values
+### Unique Elements
 ```python
 a = {1, 1, 2, 3, 4, 5, 6, 3, 3, 4}
 print(a)
 
 # Output : {1, 2, 3, 4, 5, 6}
 ```
+<!-- set:end -------------------------------------------------------------------------------------------------->
 
+
+<!-- dictionary:start -------------------------------------------------------------------------------------------------->
 
 ## Dictionary
-<hr/>
-
 ### Merge Dictionaries
 ```python
 dict1 = { 'a':2, 'b':3}
@@ -114,7 +159,7 @@ print(result)
 
 
 
-### List to dictionary conversion
+### List To Dict
 ```python
 lst1 = ['a','b']
 lst2 = [1,2]
@@ -124,7 +169,7 @@ print(res)
 #Output : {'a': 1, 'b': 2}
 ```
 
-### Inverse dictionary
+### Inverse Dictionary
 ```python
 numbers = {1: 'one', 2: 'two', 3: 'three', 4: 'four'}
 inverse = {v: k for k, v in numbers.items()}
@@ -132,3 +177,4 @@ print(inverse)
 
 # Output : {'one': 1,  'two': 2, 'three': 3, 'four': 4}
 ```
+<!-- dictionary:end -------------------------------------------------------------------------------------------------->
