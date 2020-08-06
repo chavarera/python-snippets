@@ -46,7 +46,7 @@ print(res)
 #Output : [('a', 'c', 'e'), ('b', 'd', 'f')]
 ```
 
-### Most common occurrence of element in the list
+### Most common occurrence of element
 ```python
 from collections import Counter
 lst = [1, 2, 3, 1, 2, 4, 2]
@@ -61,6 +61,21 @@ print(most_1)
 
 # Output: [(2, 3)]
 ```
+
+### Grouping adjacent element
+```python
+lst = [1, 2, 3, 4, 5, 6]
+groups = lambda lst, n : zip(*([iter(lst)]*n))
+
+g1 = list(groups(lst,3))
+print(g1)
+# Output : [(1, 2, 3), (4, 5, 6)]
+
+g2 = list(groups(lst,2))
+print(g2)
+# Output : [(1, 2), (3, 4), (5, 6)]
+```
+
 ## Tuple
 <hr/>
 
