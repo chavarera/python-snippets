@@ -5,6 +5,11 @@ iframe[src*="buttons.github.io"] {
 
 .markdown-section strong code {
     font-weight: normal;
+    
+
+}
+.markdown-section{
+max-width: 80%;
 }
 
 /* Theme Toggles */

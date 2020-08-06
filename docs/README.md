@@ -2,11 +2,9 @@
 <!------Top Start--------->
 <div align="center">
 <!--lint ignore no-dead-urls-->
-
-# Awesome Python Coding Snippets :rocket:
+<h2>Awesome Python Coding Snippets :rocket:</h2>
 
  ![Awesome](https://awesome.re/badge.svg) ![Python Coding](https://img.shields.io/badge/Python-Coding-Snippets) ![Snippets](https://img.shields.io/badge/Snippets-red)
-<hr/> 
 
  A List Of Python Coding Snippets. 
 
@@ -27,29 +25,42 @@
 #### ** List **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
+<div>
+
 1. [Transpose A List](#Transpose-A-List)
 2. [Most Frequent Elements](#Most-Frequent-Elements)
 3. [Grouping Adjacent Elements](#Grouping-Adjacent-Elements)
+</div>
 
 
 #### ** Tuple **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
+<div>
+
 1. [Tuple Unpacking](#Tuple-Unpacking)
+</div>
 
 
 #### ** Set **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
+
+<div>
+
 1. [Unique Elements](#Unique-Elements)
+</div>
 
 #### ** Dictionary **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
+
+<div>
+
 1. [Merge Dictionaries](#Merge-Dictionaries)
 2. [List To Dict](#List-To-Dict)
 3. [Inverse Dictionary](#Inverse-Dictionary)
-
+</div>
 
 <!-- tabs:end -->
 
