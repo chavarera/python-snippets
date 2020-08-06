@@ -46,7 +46,21 @@ print(res)
 #Output : [('a', 'c', 'e'), ('b', 'd', 'f')]
 ```
 
+### Most common occurrence of element in the list
+```python
+from collections import Counter
+lst = [1, 2, 3, 1, 2, 4, 2]
+top = lambda lst, k: Counter(lst).most_common(k)
 
+most_2 = top(lst, 2)
+print(most_2)
+# Output: [(2, 3), (1, 2)]
+
+most_1 = top(lst, 1)
+print(most_1)
+
+# Output: [(2, 3)]
+```
 ## Tuple
 <hr/>
 
