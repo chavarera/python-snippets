@@ -20,12 +20,12 @@
 <!-- tabs:start -->
 
 #### ** Strings **
-<img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' >
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
 1. [Reverse String](#Reverse-String)
 
 #### ** List **
-<img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300'>
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
 1. [Transpose A List](#Transpose-A-List)
 2. [Most Frequent Elements](#Most-Frequent-Elements)
@@ -33,18 +33,18 @@
 
 
 #### ** Tuple **
-<img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif"  width='300'>
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
 1. [Tuple Unpacking](#Tuple-Unpacking)
 
 
 #### ** Set **
-<img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300'>
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
 1. [Unique Elements](#Unique-Elements)
 
 #### ** Dictionary **
-<img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' >
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
 1. [Merge Dictionaries](#Merge-Dictionaries)
 2. [List To Dict](#List-To-Dict)
