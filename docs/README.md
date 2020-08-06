@@ -123,3 +123,12 @@ print(res)
 
 #Output : {'a': 1, 'b': 2}
 ```
+
+### Inverse dictionary
+```python
+numbers = {1: 'one', 2: 'two', 3: 'three', 4: 'four'}
+inverse = {v: k for k, v in numbers.items()}
+print(inverse)
+
+# Output : {'one': 1,  'two': 2, 'three': 3, 'four': 4}
+```
