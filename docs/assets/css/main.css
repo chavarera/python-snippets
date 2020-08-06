@@ -8,9 +8,6 @@ iframe[src*="buttons.github.io"] {
     
 
 }
-.markdown-section{
-max-width: 80%;
-}
 
 /* Theme Toggles */
 label[data-class-target="label + .docsify-tabs"] {
