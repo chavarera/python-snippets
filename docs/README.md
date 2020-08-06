@@ -30,6 +30,7 @@
 1. [Transpose A List](#Transpose-A-List)
 2. [Most Frequent Elements](#Most-Frequent-Elements)
 3. [Grouping Adjacent Elements](#Grouping-Adjacent-Elements)
+4. [Remove Duplicate](#Remove-Duplicate )
 </div>
 
 
@@ -122,6 +123,13 @@ print(g1)
 g2 = list(groups(lst,2))
 print(g2)
 # Output : [(1, 2), (3, 4), (5, 6)]
+```
+### Remove Duplicate 
+```python
+numbers = [1, 2, 3, 2, 4, 2, 1, 4]
+result = list(set(numbers))
+print(result)
+# Output : [1, 2, 3, 4]
 ```
 
 <!-- list:end -------------------------------------------------------------------------------------------------->
