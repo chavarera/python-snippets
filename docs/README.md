@@ -61,6 +61,7 @@
 1. [Merge Dictionaries](#Merge-Dictionaries)
 2. [List To Dict](#List-To-Dict)
 3. [Inverse Dictionary](#Inverse-Dictionary)
+4. [Sort List Of Dict](#Sort-List-Of-Dict)
 </div>
 
 <!-- tabs:end -->
@@ -195,5 +196,14 @@ inverse = {v: k for k, v in numbers.items()}
 print(inverse)
 
 # Output : {'one': 1,  'two': 2, 'three': 3, 'four': 4}
+```
+
+### Sort List Of Dict
+```python
+numbers={1:'one',2:'two',3:'three',4:'four'}
+inverse={v:k for k,v in numbers.items()}
+print(inverse)
+
+#Output:{'one':1,'two':2,'three':3,'four':4}
 ```
 <!-- dictionary:end -------------------------------------------------------------------------------------------------->
