@@ -21,6 +21,11 @@
 
 1. [Get Password](#Get-Password)
 
+#### ** Variable **
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
+
+1. [Compare DataTypes](#Compare-DataTypes)
+
 #### ** Strings **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
@@ -84,6 +89,25 @@ print(password)
 ```
 <!-- UserInput:start -------------------------------------------------------------------------------------------------->
 
+<!-- Variable:start -------------------------------------------------------------------------------------------------->
+## Variable
+
+### Compare DataTypes
+```python
+#[Author:Ravishankar]
+lst = [1,2,3,4]
+print(isinstance(lst,list))
+# True
+
+a = 1.5
+print(isinstance(a,int))
+#False
+
+c = 1j
+print(isinstance(c,complex))
+#True
+```
+<!-- Variable:end -------------------------------------------------------------------------------------------------->
 
 
 <!-- string:start -------------------------------------------------------------------------------------------------->
