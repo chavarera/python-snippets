@@ -35,6 +35,7 @@
 2. [Most Frequent Elements](#Most-Frequent-Elements)
 3. [Grouping Adjacent Elements](#Grouping-Adjacent-Elements)
 4. [Remove Duplicate](#Remove-Duplicate )
+5. [Create Frozenset List](#Create-Frozenset-List)
 </div>
 
 
@@ -89,6 +90,7 @@ print(password)
 
 ### Reverse String
 ```python
+#[Author:Ravishankar]
 text = 'reverse'
 print(text[::-1])
 
@@ -104,6 +106,7 @@ print(text[::-1])
 
 ### Transpose A List
 ```python
+#[Author:Ravishankar]
 lst = [['a', 'b'], ['c', 'd'], ['e', 'f']]
 res = list(zip(*lst))
 print(res)
@@ -113,6 +116,7 @@ print(res)
 
 ### Most Frequent Elements
 ```python
+#[Author:Ravishankar]
 from collections import Counter
 lst = [1, 2, 3, 1, 2, 4, 2]
 top = lambda lst, k: Counter(lst).most_common(k)
@@ -129,6 +133,7 @@ print(most_1)
 
 ### Grouping Adjacent Elements
 ```python
+#[Author:Ravishankar]
 lst = [1, 2, 3, 4, 5, 6]
 groups = lambda lst, n : zip(*([iter(lst)]*n))
 
@@ -142,12 +147,25 @@ print(g2)
 ```
 ### Remove Duplicate 
 ```python
+#[Author:Ravishankar]
 numbers = [1, 2, 3, 2, 4, 2, 1, 4]
 result = list(set(numbers))
 print(result)
 # Output : [1, 2, 3, 4]
 ```
 
+### Create Frozenset List
+```python
+#[Author:Ravishankar]
+lst = [1,2,3]
+lst[2] = 4
+lst = frozenset(lst)
+
+# you can not assign lst[2] = 5
+print(type(lst),lst)
+
+# Output : <class 'frozenset'> frozenset({1, 2, 4})
+```
 <!-- list:end -------------------------------------------------------------------------------------------------->
 
 
@@ -159,6 +177,7 @@ print(result)
 
 ### Tuple Unpacking
 ```python
+#[Author:Ravishankar]
 a,b = (10,20) # Tuple Unpacking
 print("a:{}\nb:{}".format(a,b))
 
@@ -171,6 +190,7 @@ print("a:{}\nb:{}".format(a,b))
 ## Set
 ### Unique Elements
 ```python
+#[Author:Ravishankar]
 a = {1, 1, 2, 3, 4, 5, 6, 3, 3, 4}
 print(a)
 
@@ -184,6 +204,7 @@ print(a)
 ## Dictionary
 ### Merge Dictionaries
 ```python
+#[Author:Ravishankar]
 dict1 = { 'a':2, 'b':3}
 dict2 = {'c':5, 'd':5}
 result = {**dict1, **dict2}
@@ -196,6 +217,7 @@ print(result)
 
 ### List To Dict
 ```python
+#[Author:Ravishankar]
 lst1 = ['a','b']
 lst2 = [1,2]
 res = dict(zip(lst1,lst2))
@@ -206,6 +228,7 @@ print(res)
 
 ### Inverse Dictionary
 ```python
+#[Author:Ravishankar]
 numbers = {1: 'one', 2: 'two', 3: 'three', 4: 'four'}
 inverse = {v: k for k, v in numbers.items()}
 print(inverse)
@@ -215,6 +238,7 @@ print(inverse)
 
 ### Sort List Of Dict
 ```python
+#[Author:Ravishankar]
 numbers={1:'one',2:'two',3:'three',4:'four'}
 inverse={v:k for k,v in numbers.items()}
 print(inverse)
