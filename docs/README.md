@@ -16,6 +16,10 @@
 
 
 <!-- tabs:start -->
+#### ** User Input **
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
+
+1. [Get Password](#Get-Password)
 
 #### ** Strings **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
@@ -65,6 +69,17 @@
 </div>
 
 <!-- tabs:end -->
+
+<!-- UserInput:start -------------------------------------------------------------------------------------------------->
+## User Input
+### Get Password
+```python
+#[Author:Ravishankar]
+from getpass import getpass
+password = getpass()
+print(password)
+```
+<!-- UserInput:start -------------------------------------------------------------------------------------------------->
 
 
 
