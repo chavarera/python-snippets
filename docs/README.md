@@ -37,6 +37,7 @@
 4. [Remove Duplicate](#Remove-Duplicate )
 5. [Create Frozenset List](#Create-Frozenset-List)
 6. [Select Random Item](#Select-Random-Item)
+7. [Shuffle Items](#Shuffle-Items)
 </div>
 
 
@@ -177,6 +178,17 @@ random_color = choice(colors)
 print(random_color)
 
 #Output : Blue
+```
+
+### Shuffle Items
+```python
+#[Author:Ravishankar]
+from random import shuffle
+colors = ['Red','Blue','Green','Orange','Yello','Cyan']
+shuffle(colors)
+print(colors)
+
+#Output : ['Yello', 'Red', 'Orange', 'Cyan', 'Blue', 'Green']
 ```
 <!-- list:end -------------------------------------------------------------------------------------------------->
 
