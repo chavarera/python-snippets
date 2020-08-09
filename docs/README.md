@@ -36,6 +36,7 @@
 3. [Grouping Adjacent Elements](#Grouping-Adjacent-Elements)
 4. [Remove Duplicate](#Remove-Duplicate )
 5. [Create Frozenset List](#Create-Frozenset-List)
+6. [Select Random Item](#Select-Random-Item)
 </div>
 
 
@@ -165,6 +166,17 @@ lst = frozenset(lst)
 print(type(lst),lst)
 
 # Output : <class 'frozenset'> frozenset({1, 2, 4})
+```
+
+### Select Random Item
+```python
+#[Author:Ravishankar]
+from random import choice
+colors = ['Red','Blue','Green','Orange','Yello','Cyan']
+random_color = choice(colors)
+print(random_color)
+
+#Output : Blue
 ```
 <!-- list:end -------------------------------------------------------------------------------------------------->
 
