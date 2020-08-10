@@ -45,6 +45,7 @@
 5. [Create Frozenset List](#Create-Frozenset-List)
 6. [Select Random Item](#Select-Random-Item)
 7. [Shuffle Items](#Shuffle-Items)
+8. [Filter Odd Items Using Filter](#Filter-Odd-Items-Using-Filter)
 </div>
 
 
@@ -236,6 +237,18 @@ print(colors)
 
 #Output : ['Yello', 'Red', 'Orange', 'Cyan', 'Blue', 'Green']
 ```
+### Filter Odd Items Using Filter
+```python
+#[Author:Ravishankar]
+
+lst = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+is_odd = lambda a : a%2 != 0
+result = list(filter(is_odd,lst))
+print(result)
+
+# [1, 3, 5, 7, 9]
+```
+
 <!-- list:end -------------------------------------------------------------------------------------------------->
 
 
