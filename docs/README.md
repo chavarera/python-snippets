@@ -30,6 +30,7 @@
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
 1. [Reverse String](#Reverse-String)
+2. [ASCII Value Of Character](#ASCII-Value-Of-Character)
 
 #### ** List **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
@@ -124,7 +125,15 @@ print(text[::-1])
 ```
 <!-- string:end -->
 
+### ASCII Value Of Character
+```python
+#[Author:Ravishankar]
+str_a = 'a'
+ascii_value = ord(str_a)
+print(ascii_value)
 
+#97
+```
 
 <!-- list:start --------------------------------------------------------------------------------------------------------------->
 
