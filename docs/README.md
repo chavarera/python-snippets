@@ -31,6 +31,7 @@
 
 1. [Reverse String](#Reverse-String)
 2. [ASCII Value Of Character](#ASCII-Value-Of-Character)
+3. [Size Of String In Bytes](#Size-Of-String-In-Bytes)
 
 #### ** List **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
@@ -134,6 +135,18 @@ print(ascii_value)
 
 #97
 ```
+
+### Size Of String In Bytes
+```python
+#[Author:Ravishankar]
+
+text = 'Hello Python'
+size = len(text.encode('utf-8'))
+print(size)
+
+# 12
+```
+
 
 <!-- list:start --------------------------------------------------------------------------------------------------------------->
 
