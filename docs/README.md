@@ -42,6 +42,7 @@
 1. [Reverse String](#Reverse-String)
 2. [ASCII Value Of Character](#ASCII-Value-Of-Character)
 3. [Size Of String In Bytes](#Size-Of-String-In-Bytes)
+4. [String Combinations](#String-Combinations)
 
 #### ** List **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
@@ -157,7 +158,22 @@ print(size)
 
 # 12
 ```
+### String Combinations
+```python
+from itertools import product
+text = 'abc'
+result = lambda text: product(text,repeat=len(text))
 
+for i in result(text):
+	print("".join(i),end=",")
+	
+'''Output:
+aaa,aab,aac,aba,abb,abc,aca,acb,acc,
+baa,bab,bac,bba,bbb,bbc,bca,bcb,bcc,
+caa,cab,cac,cba,cbb,cbc,cca,ccb,ccc
+'''
+# ----[Python World]---------
+```
 
 <!-- list:start --------------------------------------------------------------------------------------------------------------->
 
