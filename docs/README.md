@@ -19,7 +19,12 @@
 #### ** Join Us **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
-[Join Whatsapp Broadcaast](https://api.whatsapp.com/send?phone=917507500084&text=Join%20Python%20Snippet%20Updates)
+[Join Whatsapp Broadcast](https://api.whatsapp.com/send?phone=917507500084&text=Join%20Python%20Snippet%20Updates)
+
+[Share your Code ](https://github.com/chavarera/python-snippets/issues)
+
+[![Linkedin: Ravishankar Chavare](https://img.shields.io/badge/-Ravishankar%20chavare-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ravishankar-chavare-84474a102/)](https://www.linkedin.com/in/ravishankar-chavare-84474a102/)
+[![GitHub chavarera](https://img.shields.io/github/followers/chavarera?label=follow&style=social)](https://github.com/chavarera)
 
 #### ** User Input **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
