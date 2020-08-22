@@ -35,6 +35,7 @@
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
 1. [Compare DataTypes](#Compare-DataTypes)
+2. [Numbers In Python](#Numbers-In-Python)
 
 #### ** Strings **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
@@ -121,6 +122,36 @@ print(isinstance(a,int))
 c = 1j
 print(isinstance(c,complex))
 #True
+```
+
+### Numbers In Python
+```python
+[Author:Ravishankar]
+# Integer Numbers
+print('Integer')
+print(1) # Positive 
+print(-1) # Negative
+
+# Float Numbers
+print('\nFloat')
+print(0.0)
+print(10.8)
+print(-1.9)
+
+# precision Numbers
+print('\nprecision')
+print(1.33373783838383833877837) # 1.3337378383838383
+
+# Scientific Numbers
+print('\nScientific')
+print(1e10) # 10000000000.0
+
+# Infinity Numbers
+print('\nInfinity')
+print(1e450)
+
+# Complex Numbers
+print(1j)
 ```
 <!-- Variable:end -------------------------------------------------------------------------------------------------->
 
