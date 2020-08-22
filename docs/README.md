@@ -43,6 +43,7 @@
 2. [ASCII Value Of Character](#ASCII-Value-Of-Character)
 3. [Size Of String In Bytes](#Size-Of-String-In-Bytes)
 4. [String Combinations](#String-Combinations)
+5. [String Formatting](#String-Formatting)
 
 #### ** List **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
@@ -173,6 +174,22 @@ baa,bab,bac,bba,bbb,bbc,bca,bcb,bcc,
 caa,cab,cac,cba,cbb,cbc,cca,ccb,ccc
 '''
 # ----[Python World]---------
+```
+
+### String Formatting
+```python
+[Author:Ravishankar]
+result = '{0:*^20s}'.format('Project')
+print(result)
+# ******Project*******
+
+result = '{0:+^20s}'.format('Project')
+print(result)
+# ++++++Project+++++++
+
+result = '{0:_^30s}'.format('Project')
+print(result)
+# ___________Project____________
 ```
 
 <!-- list:start --------------------------------------------------------------------------------------------------------------->
