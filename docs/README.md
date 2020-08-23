@@ -59,6 +59,7 @@
 6. [Select Random Item](#Select-Random-Item)
 7. [Shuffle Items](#Shuffle-Items)
 8. [Filter Odd Items Using Filter](#Filter-Odd-Items-Using-Filter)
+9. [Select Min Values From Two List](#Select-Min-Values-From-Two-List)
 </div>
 
 
@@ -321,6 +322,15 @@ result = list(filter(is_odd,lst))
 print(result)
 
 # [1, 3, 5, 7, 9]
+```
+### Select Min Values From Two List
+```python
+[Author:Ravishankar]
+first  = [1,4,6,3,6]
+second = [5,3,4,4,7]
+result = list(map(min,first,second))
+print(result)
+# [1, 3, 4, 3, 6]
 ```
 
 <!-- list:end -------------------------------------------------------------------------------------------------->
