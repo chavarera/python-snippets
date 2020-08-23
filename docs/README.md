@@ -98,6 +98,11 @@
 1. [Read CSV File As Dictionary](#Read-CSV-File-As-Dictionary)
 </div>
 
+#### ** Date Time **
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
+
+1. [Get A Date After 10 Days](#Get-A-Date-After-10-Days)
+
 <!-- tabs:end -->
 
 <!-- UserInput:start -------------------------------------------------------------------------------------------------->
@@ -427,10 +432,43 @@ import csv
 with open('people.csv') as csv_file:
     data = list(csv.DictReader(csv_file))
 print(data)
-'''
+'''Output
 [OrderedDict([('Name', 'Ravi'), ('Gender', 'M'), ('Age', '26')]),
  OrderedDict([('Name', 'Akash'), ('Gender', 'M'), ('Age', '19')]),
  OrderedDict([('Name', 'Rima'), ('Gender', 'F'), ('Age', '30')])]
 '''
 ```
-<!-- set:end -------------------------------------------------------------------------------------------------->
+<!-- Files:end -------------------------------------------------------------------------------------------------->
+
+
+<!-- Date Time:start -------------------------------------------------------------------------------------------------->
+## Date Time
+### Get A Date After 10 Days
+```python
+from datetime import datetime,timedelta
+from time import time
+
+
+# Get today timestamp
+today = time() 
+dt = datetime.fromtimestamp(today)
+
+#Create timedelta Object
+delta = timedelta(days=10) # here you can use months years and days
+
+future_dt = dt + delta # Add Timedelta object in datetime object
+
+# specify Date Format
+formats = '%d-%m-%Y'
+future_dt = datetime.strftime(future_dt,formats)
+current_date = datetime.strftime(dt,formats)
+
+print("Current_date:",current_date,
+      "\nFuture_date :",future_dt)
+      
+'''Output
+Current_date: 23-08-2020 
+Future_date : 02-09-2020
+'''
+```
+<!-- Date Time:end -------------------------------------------------------------------------------------------------->
