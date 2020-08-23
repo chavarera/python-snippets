@@ -83,14 +83,19 @@
 
 #### ** Dictionary **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
-
-
 <div>
 
 1. [Merge Dictionaries](#Merge-Dictionaries)
 2. [List To Dict](#List-To-Dict)
 3. [Inverse Dictionary](#Inverse-Dictionary)
 4. [Sort List Of Dict](#Sort-List-Of-Dict)
+</div>
+
+#### ** Files **
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
+<div>
+
+1. [Read CSV File As Dictionary](#Read-CSV-File-As-Dictionary)
 </div>
 
 <!-- tabs:end -->
@@ -413,3 +418,19 @@ print(inverse)
 #Output:{'one':1,'two':2,'three':3,'four':4}
 ```
 <!-- dictionary:end -------------------------------------------------------------------------------------------------->
+
+<!-- Files:start -------------------------------------------------------------------------------------------------->
+## Files
+### Read CSV File As Dictionary
+```python
+import csv
+with open('people.csv') as csv_file:
+    data = list(csv.DictReader(csv_file))
+print(data)
+'''
+[OrderedDict([('Name', 'Ravi'), ('Gender', 'M'), ('Age', '26')]),
+ OrderedDict([('Name', 'Akash'), ('Gender', 'M'), ('Age', '19')]),
+ OrderedDict([('Name', 'Rima'), ('Gender', 'F'), ('Age', '30')])]
+'''
+```
+<!-- set:end -------------------------------------------------------------------------------------------------->
