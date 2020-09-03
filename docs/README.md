@@ -50,7 +50,7 @@
 3. [Size Of String In Bytes](#Size-Of-String-In-Bytes)
 4. [String Combinations](#String-Combinations)
 5. [String Formatting](#String-Formatting)
-6. [Strings And Bytes To List](#Srings-And-Bytes-To-List)
+6. [Strings And Bytes To List](#strings-and-bytes-to-list)
 
 #### ** List **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
