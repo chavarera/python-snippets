@@ -26,6 +26,11 @@
 [![Linkedin: Ravishankar Chavare](https://img.shields.io/badge/-Ravishankar%20chavare-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/ravishankar-chavare-84474a102/)](https://www.linkedin.com/in/ravishankar-chavare-84474a102/)
 [![GitHub chavarera](https://img.shields.io/github/followers/chavarera?label=follow&style=social)](https://github.com/chavarera)
 
+#### ** Basic **
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
+
+1. [Python Version At Runtime](#Python-Version-At-Runtime)
+
 #### ** User Input **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
@@ -104,6 +109,19 @@
 1. [Get A Date After 10 Days](#Get-A-Date-After-10-Days)
 
 <!-- tabs:end -->
+
+
+## Basic
+### Python Version At Runtime
+```python
+#[Author:Ravishankar]
+import sys
+version = sys.version_info
+print(f'{version.major}.{version.minor}.{version.micro}')
+
+# 3.8.3
+```
+<!-- UserInput:start -------------------------------------------------------------------------------------------------->
 
 <!-- UserInput:start -------------------------------------------------------------------------------------------------->
 ## User Input
