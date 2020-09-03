@@ -50,6 +50,7 @@
 3. [Size Of String In Bytes](#Size-Of-String-In-Bytes)
 4. [String Combinations](#String-Combinations)
 5. [String Formatting](#String-Formatting)
+6. [Strings And Bytes To List](#Srings-And-Bytes-To-List)
 
 #### ** List **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
@@ -251,7 +252,20 @@ result = '{0:_^30s}'.format('Project')
 print(result)
 # ___________Project____________
 ```
+### Strings And Bytes To List
+```python
+#[Author: Ravishankar]
+text_str = 'Hello'
+text_bytes = b'Hello'
 
+str_list = list(text_str)
+print(str_list)
+#['H', 'e', 'l', 'l', 'o']
+
+bytes_list = list(text_bytes)
+print(bytes_list)
+#[72, 101, 108, 108, 111]
+```
 <!-- list:start --------------------------------------------------------------------------------------------------------------->
 
 ## List
