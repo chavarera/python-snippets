@@ -51,6 +51,7 @@
 4. [String Combinations](#String-Combinations)
 5. [String Formatting](#String-Formatting)
 6. [Strings And Bytes To List](#strings-and-bytes-to-list)
+7. [Alphabets Digits And Punctuation](#Alphabets-Digits-And-Punctuation)
 
 #### ** List **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
@@ -265,6 +266,18 @@ print(str_list)
 bytes_list = list(text_bytes)
 print(bytes_list)
 #[72, 101, 108, 108, 111]
+```
+
+### Alphabets Digits And Punctuation
+```python
+#[Author:Ravishankar]
+from string import printable
+
+# Get alphabets symbol and numbers
+print(printable)
+
+'''output
+0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~ '''
 ```
 <!-- list:start --------------------------------------------------------------------------------------------------------------->
 
