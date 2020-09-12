@@ -36,6 +36,11 @@
 
 1. [Get Password](#Get-Password)
 
+#### ** Functions **
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
+
+1. [Dynamic Way To Call Functions](#Dynamic-Way-To-Call-Functions)
+
 #### ** Variable **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
@@ -135,6 +140,40 @@ password = getpass()
 print(password)
 ```
 <!-- UserInput:start -------------------------------------------------------------------------------------------------->
+
+## Functions
+### Dynamic Way To Call Functions
+```python
+def add(a,b):
+  return a+b
+
+def sub(a,b):
+  return a-b
+  
+def mul(a,b):
+  return a*b
+
+
+select_options = {
+  '1':add,
+  '2':sub,
+  '3':mul
+}  
+
+a,b = 5,3
+option = input("Operation:")
+
+if select_options.get(option):
+  result = select_options[option](a,b)
+  print(result)
+else:
+  print("Invalid Options")
+  
+'''output
+Operation: 3
+15
+'''
+```
 
 <!-- Variable:start -------------------------------------------------------------------------------------------------->
 ## Variable
