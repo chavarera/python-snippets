@@ -103,6 +103,17 @@
 4. [Sort List Of Dict](#Sort-List-Of-Dict)
 </div>
 
+#### **Iterable**
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
+
+
+<div>
+
+1. [Check Any True Value](#Check-Any-True-Value)
+2. [Check All True Value](#Check-All-True-Value)
+
+</div>
+
 #### ** Files **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 <div>
@@ -247,7 +258,28 @@ str_a = 'a'
 ascii_value = ord(str_a)
 print(ascii_value)
 
-#97
+#97```python
+
+# [Author : Ravishankar]
+# Any : return True only when any one of the element is true.
+
+# using multiple condition in if
+
+(a, b, c) = (1, 0, False)
+if a != 0 or b != 0 or c != 0:
+    print(True)
+
+# Using any() built in funtion
+
+result = any([a, b, c])
+print(result)
+
+# Other Examples
+
+result1 = any([0, True, 5])  # True
+result2 = any([0, False, 0.0])  # False
+result3 = any([1, 4, 5])  # True
+```
 ```
 
 ### Size Of String In Bytes
@@ -507,6 +539,56 @@ print(inverse)
 #Output:{'one':1,'two':2,'three':3,'four':4}
 ```
 <!-- dictionary:end -------------------------------------------------------------------------------------------------->
+
+
+<!-- Iterable:end -------------------------------------------------------------------------------------------------->
+##  Iterable
+### Check Any True Value
+```python
+# [Author : Ravishankar]
+# Any : return True only when any one of the element is true.
+
+# using multiple condition in if
+
+(a, b, c) = (1, 0, False)
+if a != 0 or b != 0 or c != 0:
+    print(True)
+
+# Using any() built in funtion
+
+result = any([a, b, c])
+print(result)
+
+# Other Examples
+
+result1 = any([0, True, 5])  # True
+result2 = any([0, False, 0.0])  # False
+result3 = any([1, 4, 5])  # True
+```
+
+### Check All True Value
+```python
+# [Author:Ravishankar]
+# all : returns True when all element of iterable are true
+
+# using multiple condition in if
+
+(a, b, c) = (1, 3, 4)
+if a != 0 and b != 0 and c != 0:
+    print(True)
+
+# Using any() built in function
+
+result = all([a, b, c])
+print(result)
+
+# Other Examples
+
+result1 = all([0, True, 5])  # False
+result2 = all([0, False, 0.0])  # False
+result3 = all([1, 4, 5])  # True........
+```
+<!-- Iterable:end -------------------------------------------------------------------------------------------------->
 
 <!-- Files:start -------------------------------------------------------------------------------------------------->
 ## Files
