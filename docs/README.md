@@ -121,6 +121,13 @@
 1. [Read CSV File As Dictionary](#Read-CSV-File-As-Dictionary)
 </div>
 
+
+#### **URL Manipulation**
+<div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
+
+1. [Join Two URL](#Join-Two-URL)
+<!-- tabs:end -->
+
 #### ** Date Time **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
@@ -606,6 +613,24 @@ print(data)
 ```
 <!-- Files:end -------------------------------------------------------------------------------------------------->
 
+<!-- URL Manipulation:start -------------------------------------------------------------------------------------------------->
+
+## URL Manipulation
+### Join Two URL
+```python
+# [ Author : Ravishankar ]
+# Join two URL
+from urllib.parse import urljoin
+
+url1 = 'https://www.google.com'
+url2 = 'search?channel=fs&client=ubuntu&q=python+tutorial'
+
+full_url = urljoin(url1, url2)
+print(full_url)
+
+# https://www.google.com/search?channel=fs&client=ubuntu&q=python+tutorial
+```
+<!-- URL Manipulation:start -------------------------------------------------------------------------------------------------->
 
 <!-- Date Time:start -------------------------------------------------------------------------------------------------->
 ## Date Time
