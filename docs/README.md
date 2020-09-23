@@ -126,6 +126,8 @@
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
 1. [Join Two URL](#Join-Two-URL)
+2. [Learn URL Terminology](#Learn-URL-Terminology)
+
 <!-- tabs:end -->
 
 #### ** Date Time **
@@ -630,6 +632,37 @@ print(full_url)
 
 # https://www.google.com/search?channel=fs&client=ubuntu&q=python+tutorial
 ```
+
+### Learn URL Terminology
+```python
+# [ Author : Ravishankar ]
+# Learn URL in python
+# <scheme>://<netloc>/<path>;<params>?<query>#<fragment>
+
+from urllib.parse import urlparse
+
+url = 'http://www.example.com/index?search=src' # Sample url
+parsed_url = urlparse(url) # Parse sample url
+scheme = parsed_url.scheme # Scheme : http,https,ftp etc...
+domain = parsed_url.netloc # Netloc : network locality first level domain
+path = parsed_url.path # Execution path
+query = parsed_url.query # Query parameter after ? parts
+
+result = '''scheme  = {},
+domain = {},
+path = {},
+query  = {}'''.format(scheme,
+        domain, path, query)
+print(result)
+
+'''
+scheme  = http,
+domain = www.example.com,
+path = /index,
+query  = search=src
+'''
+```
+
 <!-- URL Manipulation:start -------------------------------------------------------------------------------------------------->
 
 <!-- Date Time:start -------------------------------------------------------------------------------------------------->
