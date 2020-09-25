@@ -72,7 +72,7 @@
 7. [Shuffle Items](#Shuffle-Items)
 8. [Filter Odd Items Using Filter](#Filter-Odd-Items-Using-Filter)
 9. [Select Min Values From Two List](#Select-Min-Values-From-Two-List)
-10. [Zip List Of List](#Zip List Of List)
+10. [Zip List Of List](#Zip-List-Of-List)
 </div>
 
 
