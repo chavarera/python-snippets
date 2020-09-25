@@ -72,6 +72,7 @@
 7. [Shuffle Items](#Shuffle-Items)
 8. [Filter Odd Items Using Filter](#Filter-Odd-Items-Using-Filter)
 9. [Select Min Values From Two List](#Select-Min-Values-From-Two-List)
+10. [Zip List Of List](#Zip List Of List)
 </div>
 
 
@@ -466,6 +467,29 @@ second = [5,3,4,4,7]
 result = list(map(min,first,second))
 print(result)
 # [1, 3, 4, 3, 6]
+```
+### Zip List Of List
+```python
+#similiar to itertools.zip_longest
+def zip_longest(*iterables, fillvalue=None):
+  max_length = len(max(iterables, key=len))
+  for i in range(max_length):
+    yield [dict(enumerate(ele)).get(i, fillvalue) for ele in iterables]
+
+
+# Examples
+
+merges = list(zip_longest('ABCD', 'xy', fillvalue='NA'))
+print(merges) # [['A', 'x'], ['B', 'y'], ['C', '-'], ['D', '-']]
+
+merge1 = list(zip_longest(['a', 'b'], [1, 2], [True, False]))
+print(merge1) # [['a', 1, True], ['b', 2, False]]
+
+merge2 = list(zip_longest(['a'], [1, 2], [True, False])) 
+print(merge2) # [['a', 1, True], [None, 2, False]]))
+
+merge3 = list(zip_longest(['a'], [1, 2], [True, False], fillvalue = '_'))
+print(merge3) # [['a', 1, True], ['_', 2, False]]))
 ```
 
 <!-- list:end -------------------------------------------------------------------------------------------------->
