@@ -40,6 +40,7 @@
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
 
 1. [Dynamic Way To Call Functions](#Dynamic-Way-To-Call-Functions)
+2. [Create partial function](#Create-partial-function)
 
 #### ** Variable **
 <div><img align='right' src="https://media.giphy.com/media/UtnxCnjWAOL1J6TNUR/giphy.gif" width='300' ></div>
@@ -138,6 +139,13 @@
 
 <!-- tabs:end -->
 
+<!-- tabs:end -->
+
+
+
+
+
+
 
 ## Basic
 ### Python Version At Runtime
@@ -194,6 +202,25 @@ else:
 Operation: 3
 15
 '''
+```
+
+### Create partial function
+```python
+#partial is part of functools function 
+from functools import partial
+
+def add(a,b):
+    """Simple function to return addition"""
+    return a+b
+
+#we freeze one argument and create a partial function
+new_func = partial(add,5) 
+
+#now call new_func with single parameter 
+#where a==5 will be considerd
+print(new_func(5)) # 10
+print(new_func(6)) # 11
+print(new_func(7)) # 12
 ```
 
 <!-- Variable:start -------------------------------------------------------------------------------------------------->
